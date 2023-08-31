@@ -1,6 +1,5 @@
-# Use the official n8n image as a base
-FROM docker.n8n.io/n8nio/n8n
+FROM n8nio/n8n:latest
 
+# ENV DB_TYPE=postgresdb
 
-# Command to run on container start
-CMD ["n8n", "start"]
+CMD ["n8n start"]
