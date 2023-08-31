@@ -1,5 +1,4 @@
 FROM n8nio/n8n:latest
 
-# ENV DB_TYPE=postgresdb
+ENV DB_TYPE=sqlite
 
-CMD ["n8n start"]
